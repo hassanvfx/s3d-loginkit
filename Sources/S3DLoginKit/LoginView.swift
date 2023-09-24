@@ -41,10 +41,10 @@ public struct LoginView: View {
                 defaultContent()
             }
         }
+        .frame(maxWidth:.greatestFiniteMagnitude, maxHeight: .greatestFiniteMagnitude)
         .padding(Style.spec.padding * 4)
         .background(Style.spec.palette.background)
         .foregroundColor(Style.spec.palette.background.contrastForeground)
-        .frame(maxWidth:.greatestFiniteMagnitude, maxHeight: .greatestFiniteMagnitude)
         .overlay(
             loadingOverlay()
                 .opacity(model.loading ? 1 : 0)
