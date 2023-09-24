@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5CFCCF9D28BEE2B8001CD397 /* DemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCCF9C28BEE2B8001CD397 /* DemoAppApp.swift */; };
-		5CFCCF9F28BEE2B8001CD397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCCF9E28BEE2B8001CD397 /* ContentView.swift */; };
 		5CFCCFA128BEE2B9001CD397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFCCFA028BEE2B9001CD397 /* Assets.xcassets */; };
 		5CFCCFA428BEE2B9001CD397 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFCCFA328BEE2B9001CD397 /* Preview Assets.xcassets */; };
 		5CFCCFAE28BEE2B9001CD397 /* DemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCCFAD28BEE2B9001CD397 /* DemoAppTests.swift */; };
@@ -38,7 +37,6 @@
 		5CB21B4228BEE33A00B39783 /* ios-framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "ios-framework"; path = ..; sourceTree = "<group>"; };
 		5CFCCF9928BEE2B8001CD397 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFCCF9C28BEE2B8001CD397 /* DemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppApp.swift; sourceTree = "<group>"; };
-		5CFCCF9E28BEE2B8001CD397 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5CFCCFA028BEE2B9001CD397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CFCCFA328BEE2B9001CD397 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5CFCCFA928BEE2B9001CD397 /* DemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				5CFCCF9C28BEE2B8001CD397 /* DemoAppApp.swift */,
-				5CFCCF9E28BEE2B8001CD397 /* ContentView.swift */,
 				5CFCCFA028BEE2B9001CD397 /* Assets.xcassets */,
 				5CFCCFA228BEE2B9001CD397 /* Preview Content */,
 			);
@@ -221,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5CFCCF9428BEE2B7001CD397 /* Build configuration list for PBXProject "DemoApp" */;
+			buildConfigurationList = 5CFCCF9428BEE2B7001CD397 /* Build configuration list for PBXProject "S3DLoginKit" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -272,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CFCCF9F28BEE2B8001CD397 /* ContentView.swift in Sources */,
 				5CFCCF9D28BEE2B8001CD397 /* DemoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5CFCCF9428BEE2B7001CD397 /* Build configuration list for PBXProject "DemoApp" */ = {
+		5CFCCF9428BEE2B7001CD397 /* Build configuration list for PBXProject "S3DLoginKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5CFCCFBB28BEE2B9001CD397 /* Debug */,
